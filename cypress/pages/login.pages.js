@@ -32,7 +32,8 @@ export default class LoginMercado extends Base {
         super.validarExistenciaEVisibilidadeDoElemento(INP_EMAILLOGIN) 
         super.typeValue(INP_EMAILLOGIN,'siclano@qa.com' )
         super.clickOnElement(BTN_CONTINUAR)
-       super.validarExistenciaEVisibilidadeDoElemento(ALERT_LOGIN)
+        super.validarExistenciaEVisibilidadeDoElemento(ALERT_LOGIN)
+        super.validateElementText(ALERT_LOGIN, mensagem)
     }
     static validarLoginIncorreto2(){
         super.clickOnElement(BTN_LOGIN)
@@ -43,6 +44,7 @@ export default class LoginMercado extends Base {
         super.typeValue(INP_SENHALOGIN,'' )
         super.clickOnElement(BTN_CONTINUAR)
         super.validarExistenciaEVisibilidadeDoElemento(ALERT_SENHA)
+        super.validateElementText(ALERT_SENHA, mensagem)
     }
     
 }
