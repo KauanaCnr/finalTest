@@ -45,15 +45,23 @@ export const CADASTRO_PJ = {
 	FORM_PJ              : '//*[@id="frm2"]'    
 }
 export const CADASTRO_ENTREGA ={
-	INP_CEP1         : '//*[@id="span_cep_nacional"]'
-	INP_ENDERECO    : ''
-	INP_NUMERO      : ''
-	INP_COMPLEMENTO : '' 
-	INP_BAIRRO      : ''
-	INP_CIDADE      : ''
-	INP_ESTADO      : ''
-	INP_PAIS        : ''
-	CHECKBOX        : ''
+	INP_CEP1         : '//[@id="cep_1"]', 
+	INP_CEP2          : '//[@id="cep_2"]',
+	INP_ENDERECO      : '//*[@id="endereco_cliente"]',
+	INP_NUMERO        : '//*[@id="numero_endereco"]',
+	INP_COMPLEMENTO   : '//*[@id="numero_endereco"]' ,
+	INP_BAIRRO        : '//*[@id="bairro_cliente"]',
+	INP_CIDADE        : '//*[@id="cidade_cliente"]',
+	INP_ESTADO        : '//*[@id="estado_cliente"]',
+	INP_PAIS          : '//*[@id="pais"]',
+	CHECKBOX          : '//*[@id="endereco_cobranca_diferente"]',
+	ALERT_CEP1        : '//*[@id="cep_1_erro"]', 
+	ALERT_CEP2        : '//*[@id="cep_2_erro"]',
+	ALERT_ENDERECO    : '//*[@id="endereco_cliente_erro"]',
+	ALERT_NUMERO      : '//*[@id="numero_endereco_erro"]',
+	ALERT_BAIRRO      : '//*[@id="bairro_cliente_erro"]',
+	ALERT_CIDADE      : '//*[@id="cidade_cliente_erro"]',
+	ALERT_ESTADO      : '//*[@id="estado_cliente_erro"]'
 	
 
 }
