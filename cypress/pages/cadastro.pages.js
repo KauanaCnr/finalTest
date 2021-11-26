@@ -253,13 +253,7 @@ export default class CadastromMercado extends Base {
         super.clickOnElement(BTN_AVANCAR)
         super.validarExistenciaEVisibilidadeDoElemento(ALERT_CEP1)
         super.validarExistenciaEVisibilidadeDoElemento(ALERT_CEP2)
-             
-	       
-	ALERT_ENDERECO    
-	ALERT_NUMERO     
-	ALERT_BAIRRO     
-	ALERT_CIDADE      
-	ALERT_ESTADO      
+        
    }
   
    static cadastrarSemEndereço(){
@@ -282,11 +276,7 @@ export default class CadastromMercado extends Base {
         super.typeValue(INP_ESTADO,'São Paulo')
         super.typeValue(INP_PAIS, 'Brasil')
         super.clickOnElement(BTN_AVANCAR)
-        super.validarExistenciaEVisibilidadeDoElemento(ALERT_ENDERECO)            
-	ALERT_NUMERO     
-	ALERT_BAIRRO     
-	ALERT_CIDADE      
-	ALERT_ESTADO   
+        super.validarExistenciaEVisibilidadeDoElemento(ALERT_ENDERECO)              
     }
   
    static cadastrarSemNumero(){
@@ -309,10 +299,7 @@ export default class CadastromMercado extends Base {
         super.typeValue(INP_ESTADO,'São Paulo')
         super.typeValue(INP_PAIS, 'Brasil')
         super.clickOnElement(BTN_AVANCAR)
-        super.validarExistenciaEVisibilidadeDoElemento(ALERT_NUMERO )	    
-	   
-	ALERT_CIDADE      
-	ALERT_ESTADO   
+        super.validarExistenciaEVisibilidadeDoElemento(ALERT_NUMERO )	     
     }
    static cadastrarSemBairro(){
         super.clickOnElement(BTN_PFISICA)
