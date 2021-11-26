@@ -4,7 +4,7 @@ import LOGIN from '../components/login.elements'
 
 export default class LoginMercado extends Base {
 
-    static abrirCadastro(){
+    static abrirLogin(){
         cy.visitar()
         super.clickOnElement(BTN_ENTRAR)
         super.validarUrl('/central-do-cliente')
