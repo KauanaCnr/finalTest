@@ -12,7 +12,7 @@ export default class CadastromMercado extends Base {
   		super.clickOnElement(BTN_CADASTRO)
         super.validarUrl('/cadastro')
   	}
-    static validarElementosPF(){
+    static validarElementosPJ(){
         super.validarExistenciaEVisibilidadeDoElemento(FORM_FISICA)
         super.validarExistenciaEVisibilidadeDoElemento(BTN_PFISICA)
         super.validarExistenciaEVisibilidadeDoElemento(BTN_AVANCAR)
