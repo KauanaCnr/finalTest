@@ -33,6 +33,25 @@ describe("Teste de Cadastro  Ecommerce Mercado Online", () =>{
     it('Cadastrar um usuario sem prencher os campos', () =>{
        CadastromMercado.cadastrarUsuarioComCamposVazios()
     })
+    it('Cadastrar um usuario sem cep', () =>{
+       CadastromMercado.cadastrarSemCEP()
+    })
+    it('Cadastrar um usuario sem endereço', () =>{
+      CadastromMercado.cadastrarSemEndereço()
+    })
+    it('Cadastrar um usuario sem numero', () =>{
+       CadastromMercado.cadastrarSemNumero()
+    })
+    it('Cadastrar um usuario sem bairro', () =>{
+       CadastromMercado.cadastrarSemBairro()
+    })
+    it('Cadastrar um usuario sem cidade', () =>{
+       CadastromMercado.cadastrarSemCidade()
+    })
+    it('Cadastrar um usuario sem estado', () =>{
+       CadastromMercado.cadastrarSemEstado()
+    })
+  
     
      
 })
