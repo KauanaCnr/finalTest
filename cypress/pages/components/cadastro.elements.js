@@ -15,7 +15,15 @@ export const CADASTRO_PF = {
 	INP_SNOVAMENTE      : '//*[@id="senha_cliente2"]',
 	BTN_AVANCAR         : '//*[@id="frm2"]/div[3]/button',
 	BTN_PFISICA         : '//*[@id="PessoaFisica"]/a',
-	FORM_FISICA         : '//*[@id="frm2"]/div[1]'    
+	FORM_FISICA         : '//*[@id="frm2"]/div[1]',
+	ALERT_NOME          : '//*[@id="pf_nome_cliente_erro"]',
+	ALERT_CPF           : '//*[@id="pf_cpf_cliente_erro"]',
+    ALERT_EMAIL         : '//*[@id="email_cliente_erro"]',
+    ALERT_SENHA         : '//*[@id="senha_cliente_erro"]',
+    ALERT_EMAIL2        : '//*[@id="email_cliente2_erro"]',
+    ALERT_SENHA2        : '//*[@id="senha_cliente2_erro"]',
+    ALERT_TELEFONE      : '//*[@id="telefone_cliente_2_erro"]',
+    ALERT_INVALIDO      : '//*[@id="main"]/div[2]/div/p',
 }
 
 export const CADASTRO_PJ = {
@@ -35,4 +43,17 @@ export const CADASTRO_PJ = {
 	BTN_AVANCARPJ        : '//*[@id="frm2"]/div[3]/button/span',
 	BTN_PJ               : '//*[@id="PessoaJuridica"]/a',
 	FORM_PJ              : '//*[@id="frm2"]'    
+}
+export const CADASTRO_ENTREGA ={
+	INP_CEP1         : '//*[@id="span_cep_nacional"]'
+	INP_ENDERECO    : ''
+	INP_NUMERO      : ''
+	INP_COMPLEMENTO : '' 
+	INP_BAIRRO      : ''
+	INP_CIDADE      : ''
+	INP_ESTADO      : ''
+	INP_PAIS        : ''
+	CHECKBOX        : ''
+	
+
 }
