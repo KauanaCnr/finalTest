@@ -5,27 +5,18 @@
     "chromeWebSecurity": false
     },
     {
-  "reporter": "cypress-multi-reporters",
-  "reporterOptions": {
-    "configFile": "reporter-config.json"
-  }
-}
-{
-  "reporterEnabled": "spec, mocha-junit-reporter",
-  "mochaJunitReporterReporterOptions": {
-    "mochaFile": "cypress/results/results-[hash].xml"
-  }
-}
-{
-  "reporter": "mochawesome",
-  "reporterOptions": {
-    "reportDir": "cypress/results",
-    "overwrite": false,
+   "reporter": "mochawesome",
+    "reporterOptions": {
+    "reportDir": "cypress/report/mochawesome-report",
+    "overwrite": true,
     "html": false,
-    "json": true
-  }
-}
-  
+    "json": true,
+    "timestamp": "yyyymmdd_HHMMss",
+    "reportTitles": "Relatorio_ServeRest",
+    "cdn": true,
+    "charts": true,
+    "screenshots": false
+  },
   "video": false
 
 }
