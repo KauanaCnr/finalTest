@@ -1,4 +1,5 @@
-
+Versões diferentes de SO apresentam forma diferentes na parte de cadastro onde no
+mesmo apresenta dados pessoais e de entrega em uns e outros não. O que acaba dando erro ao fazer teste em cadastro.
 
 
 
