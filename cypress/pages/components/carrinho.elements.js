@@ -4,6 +4,6 @@ export const CARRINHO ={
 	INP_BUSCA           : '//*[@id="searchinput"]',
 	BTN_FINALIZA        : '//*[@id="cart-sidebar"]/footer/div/div/a',
 	BTN_LIMPA           : '//*[@id="cart-sidebar"]/footer/span',
-	BTN_DELETE          : '//*[prod-delete=id="27"]'
+	BTN_DELETE          : '//*[@id="235"]'
 
 }

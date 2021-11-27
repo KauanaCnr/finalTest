@@ -8,8 +8,11 @@ export const FRUTAS ={
 	BTN_AMARELAS   : '//*[@id="main"]/div[5]/div[4]/a',
 	BTN_SECAS      : '//*[@id="main"]/div[5]/div[5]/a',
 	BTN_ESTACAO    : '//*[@id="main"]/div[5]/div[7]/a',
-	BTN_ADICIONAR  : '//*[@id="main"]/div[6]/div[2]/div[3]/div/div[3]/div[2]/button',
+	BTN_ADICIONAR  : '//*[@id="main"]/div[6]/div[2]/div[1]/div/div[3]/div[2]/button',
 	BTN_MAIS       : '//*[@id="main"]/div[6]/div[2]/div[1]/div/div[3]/div[2]/div/button[2]',
-	BTN_MENOS      : '//*[@id="main"]/div[6]/div[2]/div[1]/div/div[3]/div[2]/div/button[1]'
+	BTN_MENOS      : '//*[@id="main"]/div[6]/div[2]/div[1]/div/div[3]/div[2]/div/button[1]',
+	BTN_ADICIONAR2 : '//*[@id="main"]/div[6]/div[2]/div[2]/div/div[3]/div[2]/button',
+	BTN_MAIS2      : '//*[@id="main"]/div[6]/div[2]/div[2]/div/div[3]/div[2]/div/button[2]',
+	BTN_MENOS2     : '//*[@id="main"]/div[6]/div[2]/div[2]/div/div[3]/div[2]/div/button[1]'
 
 }
