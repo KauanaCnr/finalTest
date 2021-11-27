@@ -4,12 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "delete:reports": "rm cypress/results/* || true",
-    "prereport": "npm run delete:reports",
-    "report": "cypress run --reporter cypress-multi-reporters --reporter-options configFile=reporter-config.json"
+    "cy:open": "npx cypress open --config watchForFileChanges =false",
+    "cy:run": "npx cypress run",
+    "report:merge": "mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/output.json",
+    "report:generate": "marge cypress/report/output.json --reportDir ./ --inline"
   }
   },
   
