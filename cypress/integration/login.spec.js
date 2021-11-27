@@ -14,14 +14,11 @@ describe("Teste de Login Ecommerce Mercado Online", () =>{
       LoginMercado.validarLogin()
     })
 
-      })
-      it('verificar a existencia da mensagem de erro apos um login sem email', () =>{
+    it('verificar a existencia da mensagem de erro apos um login sem email', () =>{
         LoginMercado.validarLoginIncorreto('Dados inválidos, digite novamente!')
-      })
-      it('verificar a existencia da mensagem de erro apos um login sem senha', () =>{
+    })
+    it('verificar a existencia da mensagem de erro apos um login sem senha', () =>{
         LoginMercado.validarLoginIncorreto('Autenticação incorreta.')
-      })
-
-     
+    }) 
   
 })

@@ -133,7 +133,7 @@ export default class CadastromMercado extends Base {
    
     static cadastrarUsuarioSemNome(){
         
-        s super.clickOnElement(BTN_PFISICA)
+        super.clickOnElement(BTN_PFISICA)
         super.typeValue(INP_NOMECLIENTE, ``)
         super.typeValue(INP_CPF, 34778493028)
         super.typeValue(INP_TCELULAR , 22975894187)

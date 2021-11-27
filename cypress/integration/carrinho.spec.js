@@ -25,6 +25,8 @@ describe("Teste de adicionar produtos ao carinho e finalizar compras  Ecommerce 
     it('Finalizar compra na pagina carrinho', () =>{
       AdicionarCarrinho.abrirCarrinho()
       AdicionarCarrinho.finalizarCompras()
+
+    })
     it('Excluir um item da pagina carinho', () =>{
       AdicionarCarrinho.abrirCarrinho()
       AdicionarCarrinho.excluirItemCarrinho()
