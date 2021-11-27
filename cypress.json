@@ -4,18 +4,28 @@
     "base_url": "https://701523.commercesuite.com.br    ",
     "chromeWebSecurity": false
     },
-    "reporter": "mochawesome",
-    "reporterOptions": {
-    "reportDir": "cypress/report/mochawesome-report",
-    "overwrite": true,
+    {
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  }
+}
+{
+  "reporterEnabled": "spec, mocha-junit-reporter",
+  "mochaJunitReporterReporterOptions": {
+    "mochaFile": "cypress/results/results-[hash].xml"
+  }
+}
+{
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
     "html": false,
-    "json": true,
-    "timestamp": "yyyymmdd_HHMMss",
-    "reportTitles": "Relatorio_Mercadinho",
-    "cdn": true,
-    "charts": true,
-    "screenshots": false
-  },
+    "json": true
+  }
+}
+  
   "video": false
 
 }
