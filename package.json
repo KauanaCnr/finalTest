@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open --config '{"watchForFileChanges":false,"testFiles":["**/*.js","**/*.ts"]}'",
+    "cy:open": "npx cypress open --config watchForFileChanges=false",
     "cy:run": "npx cypress run",
     "report:merge": "mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/output.json",
     "report:generate": "marge cypress/report/output.json --reportDir ./ --inline"

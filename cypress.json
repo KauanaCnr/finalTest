@@ -2,9 +2,7 @@
     "env": 
     {
     "base_url": "https://701523.commercesuite.com.br    ",
-    "chromeWebSecurity": false
-    },
-    {
+    "chromeWebSecurity": false,
    "reporter": "mochawesome",
     "reporterOptions": {
     "reportDir": "cypress/report/mochawesome-report",
@@ -12,7 +10,7 @@
     "html": false,
     "json": true,
     "timestamp": "yyyymmdd_HHMMss",
-    "reportTitles": "Relatorio_ServeRest",
+    "reportTitles": "Relatorio_Mercado",
     "cdn": true,
     "charts": true,
     "screenshots": false
